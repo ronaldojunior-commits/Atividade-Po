@@ -1,7 +1,8 @@
 public class Main {
     public static void main (String []args){
-        ContaBancaria conta = new ContaBancaria("123456", "Obama", 1000);
+        Carro carro = new Carro("Toyota",0,240 );
 
-        System.out.print(conta.getSaldo());
+        carro.acelerar(100);
+        carro.freiar(15);
     }
 }
